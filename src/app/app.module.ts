@@ -1,3 +1,4 @@
+import { LivroService } from './service/livro.service';
 import { RouterModule } from '@angular/router';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -29,7 +30,7 @@ import { HttpClientModule } from '@angular/common/http';
     HttpClientModule,
     ReactiveFormsModule
   ],
-  providers: [],
+  providers: [LivroService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
