@@ -1,7 +1,9 @@
+import { LivroVolumeInfo } from './../../models/livroVolumeInfo';
 import { LivroService } from './../../service/livro.service';
 import { Component, OnDestroy } from '@angular/core';
 import { Subscription } from 'rxjs';
 import { Livro } from 'src/app/models/Livro.interface';
+import { Item } from 'src/app/models/Item.interface';
 
 @Component({
   selector: 'app-lista-livros',
@@ -28,22 +30,10 @@ export class ListaLivrosComponent implements OnDestroy{
     this.campoBusca = ''
   }
 
-  livrosResultadoParaLivros(itens): Livro[]{
-    const livros: Livro[] = []
-
-    itens.forEach(item => {
-      livros.push(this.livro = {
-          title: item.volumeInfo?.title,
-          authors: item.volumeInfo?.authors,
-          publisher: item.volumeInfo?.publisher,
-          publishedDate: item.volumeInfo?.publishedDate,
-          description: item.volumeInfo?.description,
-          previewLink: item.volumeInfo?.previewLink,
-          thumbnail: item.volumeInfo?.imageLinks?.thumbnail,
-        }
-      )
+  livrosResultadoParaLivros(itens: Item[]): LivroVolumeInfo[]{
+      return itens.map(item => {
+      return new LivroVolumeInfo(item)
     })
-    return livros
   }
 
 
