@@ -36,7 +36,6 @@ Este projeto foi uma oportunidade valiosa para aprimorar minhas habilidades no d
 ![fotoExemplo](./src/assets/imagens/pagPrincipal.png)
 ![fotoExemplo](./src/assets/imagens/livros.png)
 ![fotoExemplo](./src/assets/imagens/modalLivros.png)
-![fotoExemplo](./src/assets/imagens/card.png)
 
 ## 🎮Projeto
 ➡  [link do projeto](https://buscante-psi.vercel.app/lista-livros) ⬅
