@@ -1,27 +1,66 @@
-# Buscante
+# Projeto Buscante
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.3.
+![fotoExemplo](./src/assets/imagens/buscanteCabecalho.png)
 
-## Development server
+O projeto buscante é um site que você pode buscar qualquer livro do mundo, apenas digite o tema ou nome do livro no campo de busca e uma lista de livros serão exibidos.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Índice 
+- <a href="#tecnologias-utilizadas">Tecnologias utilizadas</a>
+- <a href="#proposito">Propósito</a>
+- <a href="#funcionalidades-do-projeto">Funcionalidades do Projeto</a>
+- <a href="#layout">Layout</a>
+- <a href="#projeto">Projeto</a>
+- <a href="#como-rodar-o-projeto">Como rodar o projeto</a>
+- <a href="#autores">Autores</a>
 
-## Code scaffolding
+## 📱Tecnologias utilizadas
+1. [Angular](https://angular.io/cli)
+2. [Google Books Api](https://developers.google.com/books?hl=pt-br)
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## 🎯Propósito
+O propósito deste projeto em Angular é me aprodundar em consumo de API's no framework Angular. Foi um projeto acadêmico criado em colaboração com a Alura, com o objetivo de explorar e dominar os conceitos de consumir,tratar e exibir dados de uma API no Angular.
 
-## Build
+Durante o projeto, adquiri conhecimentos essenciais sobre Angular, como diretivas, injeção de dependências e manipulação de requisições HTTP. Aprendi o padrão Observer e a usar Observables para criar fluxos de dados reativos. Habilitei o debug do fluxo, manipulei dados do backend e otimizei a busca typeahead. Também aprendi a lidar com erros usando catchError e throwError. Essas habilidades fortaleceram meu conhecimento no Angular.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Este projeto foi uma oportunidade valiosa para aprimorar minhas habilidades no desenvolvimento Angular e obter uma compreensão aprofundada como tratar,consumir e exibir dados de uma API.
 
-## Running unit tests
+## 🖥Funcionalidades do Projeto
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+✔ Campo de busca, pode pesquisar qualquer livro.<br>
+✔ Todos os dados dos livros são exibidos através da API do Google.<br>
+✔ Os livros vem com nome do livro, autoria, data de publicação e editora.<br>
+✔ Ler a prévia dos livros.
 
-## Running end-to-end tests
+## 🧩Layout
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+![fotoExemplo](./src/assets/imagens/pagPrincipal.png)
+![fotoExemplo](./src/assets/imagens/livros.png)
+![fotoExemplo](./src/assets/imagens/modalLivros.png)
+![fotoExemplo](./src/assets/imagens/card.png)
 
-## Further help
+## 🎮Projeto
+➡  [link do projeto](https://buscante-psi.vercel.app/lista-livros) ⬅
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+## ⚠Como Rodar o Projeto
+```bash
+# Clone este repositório
+$ git clone https://github.com/Jonas-Sousa/buscante.git
+
+# Acesse a pasta do projeto no seu terminal
+$ cd buscante
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação
+$ ng serve
+```
+## 😎Autores 
+
+  <br>
+  <p>Jonas Sousa</p>
+  <img style="height:300px" src="./src/assets/imagens/Jonas.png"/>
+  
+  [Linkedin](https://www.linkedin.com/in/jonas-sousa-dev/)
+
+
