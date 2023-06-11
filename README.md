@@ -4,7 +4,7 @@
 
 O projeto buscante é um site que você pode buscar qualquer livro do mundo, apenas digite o tema ou nome do livro no campo de busca e uma lista de livros serão exibidos.
 
-## Índice 
+## 📌Índice 
 - <a href="#tecnologias-utilizadas">Tecnologias utilizadas</a>
 - <a href="#proposito">Propósito</a>
 - <a href="#funcionalidades-do-projeto">Funcionalidades do Projeto</a>
