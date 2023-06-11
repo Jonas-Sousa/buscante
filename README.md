@@ -15,7 +15,9 @@ O projeto buscante é um site que você pode buscar qualquer livro do mundo, ape
 
 ## 📱Tecnologias utilizadas
 1. [Angular](https://angular.io/cli)
-2. [Google Books Api](https://developers.google.com/books?hl=pt-br)
+2. [Observables](https://angular.io/guide/observables)
+3. [Router](https://angular.io/guide/router)
+4. [Google Books Api](https://developers.google.com/books?hl=pt-br)
 
 ## 🎯Propósito
 O propósito deste projeto em Angular é me aprodundar em consumo de API's no framework Angular. Foi um projeto acadêmico criado em colaboração com a Alura, com o objetivo de explorar e dominar os conceitos de consumir,tratar e exibir dados de uma API no Angular.
